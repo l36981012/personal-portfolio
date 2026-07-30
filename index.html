@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>郑开源 Portfolio | HMI & Kanzi Designer</title>
+    <meta
+      name="description"
+      content="郑开源个人作品网站，展示 HMI 设计、Kanzi 开发、3D 视觉、SR 与车载动效项目。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="grain" aria-hidden="true"></canvas>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="transition-curtain" aria-hidden="true"></div>
+
+    <main class="site-shell" id="top">
+      <section class="screen loading-screen is-visible" data-screen="loading">
+        <div class="hazard-band" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="loading-lockup">
+          <span class="loading-count" data-count>0</span>
+          <span class="loading-percent">%</span>
+        </div>
+        <div class="red-rule loading-rule"></div>
+        <p class="loading-copy">作品正在加载中......请耐心等待~</p>
+        <p class="system-copy">ZHENG_KAIYUAN_SYSTEM_BOOT / PORTFOLIO_ARCHIVE / INTERFACE_READY</p>
+      </section>
+
+      <section class="screen hero-screen is-visible" id="home" data-screen="hero">
+        <nav class="site-nav" aria-label="主导航">
+          <a href="#home" aria-current="page">ZHENG KAIYUAN</a>
+          <a href="#work">WORK</a>
+          <a href="#archive">ARCHIVE</a>
+          <a href="#about">ABOUT</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <figure class="hero-media" aria-label="郑开源 HMI 作品集封面">
+          <img src="./assets/portfolio/slide-01-cover-1.webp" alt="郑开源 HMI 作品集封面，深色汽车侧面视觉" />
+        </figure>
+        <div class="hero-meta">
+          <span>VOL.001 / 2026</span>
+          <span>HMI DESIGN / KANZI / 3D VISUAL / MOTION</span>
+        </div>
+        <p class="page-number">p.001</p>
+        <h1 class="hero-title" data-hero-title>
+          <span>Zheng</span>
+          <span>Portfolio</span>
+        </h1>
+        <p class="hero-role">HMI DESIGNER / KANZI DEVELOPMENT / 3D VISUAL SYSTEM</p>
+        <div class="hero-actions" aria-label="主要操作">
+          <a class="button-link primary" href="#work">查看作品</a>
+          <a class="button-link" href="#contact">联系合作</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>52</dt>
+            <dd>PPT Slides</dd>
+          </div>
+          <div>
+            <dt>7</dt>
+            <dd>Project Groups</dd>
+          </div>
+          <div>
+            <dt>Kanzi</dt>
+            <dd>Design to Engine</dd>
+          </div>
+        </dl>
+        <div class="red-rule hero-rule"></div>
+        <a class="scroll-cue" href="#manifesto">向下滚动屏幕</a>
+      </section>
+
+      <section class="screen manifesto-screen" id="manifesto" data-screen="manifesto">
+        <div class="section-marker">/ MANIFESTO / P.002</div>
+        <p class="page-number">p.002</p>
+        <h2 class="manifesto-lines" data-manifesto>
+          <span>DESIGN THE STATE.</span>
+          <span>BUILD THE MOTION.</span>
+          <span>MAKE IT LAND.</span>
+        </h2>
+        <p class="manifesto-cn">从概念图、3D 场景、HMI 状态到 Kanzi 动效落地，让车载界面在真实场景里成立。</p>
+        <div class="red-rule manifesto-rule"></div>
+      </section>
+
+      <section class="projects-gallery" id="work" data-screen="projects">
+        <div class="projects-sticky">
+          <nav class="mini-nav" aria-label="作品页导航">
+            <a href="#home">HOME</a>
+            <a href="#manifesto">MANIFESTO</a>
+            <a href="#work" aria-current="page">WORK</a>
+            <a href="#archive">ARCHIVE</a>
+            <a href="#contact">CONTACT</a>
+          </nav>
+          <p class="page-number">p.003</p>
+          <div class="gallery-counter" data-project-counter>01 / 05</div>
+          <div class="projects-viewport">
+            <div class="projects-track" data-project-track>
+              <article class="project-slide">
+                <div class="project-poster cockpit">
+                  <img src="./assets/portfolio/slide-04-sand-mode-2.webp" alt="长城汽车 HAVAL 驾驶模式沙地场景" loading="lazy" decoding="async" />
+                </div>
+                <div class="project-content">
+                  <span class="project-index">01 / HAVAL</span>
+                  <h2>Great Wall</h2>
+                  <p>长城汽车项目组，包含驾驶模式、改装厂场景、3D 桌面车模、SR Design、SR_POC 与 Driver Mode 动画。</p>
+                  <ul>
+                    <li>Drive Mode</li>
+                    <li>SR</li>
+                    <li>Kanzi</li>
+                  </ul>
+                  <a href="#great-wall" data-transition>VIEW PROJECT -&gt;</a>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <div class="project-poster visual">
+                  <img src="./assets/portfolio/slide-30-racing-assistant-1.webp" alt="腾势 Z9 竞速助手界面视觉" loading="lazy" decoding="async" />
+                </div>
+                <div class="project-content">
+                  <span class="project-index">02 / DENZA Z9</span>
+                  <h2>Racing UI</h2>
+                  <p>腾势 Z9 竞速助手，把竞速模式概念、仪表信息和动态驾驶反馈组织成完整的座舱体验。</p>
+                  <ul>
+                    <li>Racing Assistant</li>
+                    <li>Cluster UI</li>
+                    <li>Motion</li>
+                  </ul>
+                  <a href="#denza" data-transition>VIEW PROJECT -&gt;</a>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <div class="project-poster experiment">
+                  <img src="./assets/portfolio/slide-33-jmc-entry-transition-1.webp" alt="江铃 POC 项目封面" loading="lazy" decoding="async" />
+                </div>
+                <div class="project-content">
+                  <span class="project-index">03 / JMC</span>
+                  <h2>JMC POC</h2>
+                  <p>江铃 3D POC Design，集中展示仪表入场、仪表转场、空调吹风、泥地和沙地等动效探索。</p>
+                  <ul>
+                    <li>3D POC</li>
+                    <li>Animation</li>
+                    <li>HMI Motion</li>
+                  </ul>
+                  <a href="#jmc" data-transition>VIEW PROJECT -&gt;</a>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <div class="project-poster brand">
+                  <img src="./assets/portfolio/slide-50-zhixing-states-1.webp" alt="知行科技 ALC 自动变道 SR 状态" loading="lazy" decoding="async" />
+                </div>
+                <div class="project-content">
+                  <span class="project-index">04 / ZHIXING</span>
+                  <h2>SR States</h2>
+                  <p>知行科技 SR 项目，覆盖夜间风险、ALC 自动变道、NOA 开启、正在泊车与泊车完成状态。</p>
+                  <ul>
+                    <li>ALC</li>
+                    <li>NOA</li>
+                    <li>Parking</li>
+                  </ul>
+                  <a href="#zhixing" data-transition>VIEW PROJECT -&gt;</a>
+                </div>
+              </article>
+
+              <article class="project-slide">
+                <div class="project-poster cockpit">
+                  <img src="./assets/portfolio/slide-49-zhixing-night-1.webp" alt="滴水 OS SR 动效所属夜间 SR 场景" loading="lazy" decoding="async" />
+                </div>
+                <div class="project-content">
+                  <span class="project-index">05 / WATER OS</span>
+                  <h2>Dishui OS</h2>
+                  <p>滴水 OS SR 项目，以独立动效视频作为最终展示，适合在网站中作为单独的 Motion Case 呈现。</p>
+                  <ul>
+                    <li>SR Motion</li>
+                    <li>OS Visual</li>
+                    <li>Video</li>
+                  </ul>
+                  <a href="#dishui" data-transition>VIEW PROJECT -&gt;</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-archive" id="archive" data-screen="archive">
+        <div class="archive-inner">
+          <div class="archive-heading">
+            <span class="section-marker">/ PROJECT ARCHIVE / P.004</span>
+            <p class="page-number">p.004</p>
+            <h2>Client<br />Projects</h2>
+            <p>按 PPT 原始逻辑重新整理：先按客户和项目归档，再在项目内部展示静态图、Kanzi 对比稿与动效视频。</p>
+          </div>
+
+          <article class="work-case client-case" id="great-wall">
+            <div class="work-copy">
+              <span>01 / 长城汽车 HAVAL / Slides 02-29, 36-47</span>
+              <h3>Great Wall Motor</h3>
+              <p>长城汽车是作品集里体量最大的项目组，包含多个 HMI 与 3D 视觉子项目。网站中按 PPT 顺序拆成六个子模块：驾驶模式、改装厂、3D 桌面车模、SR Design、SR_POC、Driver Mode 动画。</p>
+            </div>
+            <div class="subcase" id="drive-modes">
+              <div class="subcase-heading">
+                <span>01-A / Drive Mode / Slides 03-21</span>
+                <h4>驾驶模式视觉设计</h4>
+                <p>Sand、Offroad、Grassland、Snow、Concave convex、Highway 六种路况模式。每组内容对应场景视觉、整车渲染和 Kanzi 开发效果对比。</p>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media"><img src="./assets/portfolio/slide-04-sand-mode-2.webp" alt="Sand mode 沙地模式" loading="lazy" decoding="async" /><figcaption>Sand mode</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-07-offroad-mode-2.webp" alt="Offroad mode 越野模式" loading="lazy" decoding="async" /><figcaption>Offroad mode</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-10-grassland-mode-2.webp" alt="Grassland mode 草地模式" loading="lazy" decoding="async" /><figcaption>Grassland mode</figcaption></figure>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media"><img src="./assets/portfolio/slide-13-snow-mode-2.webp" alt="Snow mode 雪地模式" loading="lazy" decoding="async" /><figcaption>Snow mode</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-16-concave-mode-2.webp" alt="Concave convex mode 凹凸路模式" loading="lazy" decoding="async" /><figcaption>Concave convex mode</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-19-highway-mode-2.webp" alt="Highway mode 高速模式" loading="lazy" decoding="async" /><figcaption>Highway mode</figcaption></figure>
+              </div>
+              <div class="work-grid two">
+                <figure class="work-media"><img src="./assets/portfolio/slide-06-sand-contrast-1.webp" alt="Sand mode 渲染图" loading="lazy" decoding="async" /><figcaption>渲染图</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-06-sand-contrast-2.webp" alt="Sand mode Kanzi 开发效果" loading="lazy" decoding="async" /><figcaption>Kanzi 开发</figcaption></figure>
+              </div>
+            </div>
+
+            <div class="subcase" id="mod-factory">
+              <div class="subcase-heading">
+                <span>01-B / Modification Factory / Slides 22-24</span>
+                <h4>改装厂场景设计</h4>
+                <p>面向车载场景展示的三维改装厂空间，包含静态场景图和 2560*720 动画展示。</p>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media"><img src="./assets/portfolio/slide-23-mod-factory-scenes-1.webp" alt="改装厂场景一" loading="lazy" decoding="async" /><figcaption>Scene design 01</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-23-mod-factory-scenes-2.webp" alt="改装厂场景二" loading="lazy" decoding="async" /><figcaption>Scene design 02</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-23-mod-factory-scenes-3.webp" alt="改装厂场景三" loading="lazy" decoding="async" /><figcaption>Scene design 03</figcaption></figure>
+              </div>
+              <div class="work-grid one">
+                <figure class="work-media video"><video controls preload="metadata" poster="./assets/portfolio/slide-24-mod-factory-motion-1.webp"><source src="./assets/portfolio/video-01.mp4" type="video/mp4" /></video><figcaption>改装厂动画展示</figcaption></figure>
+              </div>
+            </div>
+
+            <div class="subcase" id="launcher-car-model">
+              <div class="subcase-heading">
+                <span>01-C / 3D Launcher / Slides 25-26</span>
+                <h4>3D 桌面 / 车模效果设计</h4>
+                <p>围绕座舱 3D Launcher 与车模效果展开，用车模视角建立桌面视觉中心和车辆展示方式。</p>
+              </div>
+              <div class="work-grid four">
+                <figure class="work-media"><img src="./assets/portfolio/slide-26-launcher-car-model-1.webp" alt="3D 桌面车模效果一" loading="lazy" decoding="async" /><figcaption>Car model 01</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-26-launcher-car-model-2.webp" alt="3D 桌面车模效果二" loading="lazy" decoding="async" /><figcaption>Car model 02</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-26-launcher-car-model-3.webp" alt="3D 桌面车模效果三" loading="lazy" decoding="async" /><figcaption>Car model 03</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-26-launcher-car-model-4.webp" alt="3D 桌面车模效果四" loading="lazy" decoding="async" /><figcaption>Car model 04</figcaption></figure>
+              </div>
+            </div>
+
+            <div class="subcase" id="great-wall-sr-design">
+              <div class="subcase-heading">
+                <span>01-D / SR Design / Slides 27-29</span>
+                <h4>SR Design</h4>
+                <p>长城汽车 SR 设计，展示高速路况和 Noon、Morning、Night、Dusk 四种时间状态。</p>
+              </div>
+              <div class="work-grid four">
+                <figure class="work-media"><img src="./assets/portfolio/slide-29-sr-time-system-1.webp" alt="SR Noon 场景" loading="lazy" decoding="async" /><figcaption>Noon</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-29-sr-time-system-2.webp" alt="SR Morning 场景" loading="lazy" decoding="async" /><figcaption>Morning</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-29-sr-time-system-3.webp" alt="SR Night 场景" loading="lazy" decoding="async" /><figcaption>Night</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-29-sr-time-system-4.webp" alt="SR Dusk 场景" loading="lazy" decoding="async" /><figcaption>Dusk</figcaption></figure>
+              </div>
+            </div>
+
+            <div class="subcase" id="great-wall-sr-poc">
+              <div class="subcase-heading">
+                <span>01-E / SR_POC / Slides 36-45</span>
+                <h4>SR_POC / 3D POC Design</h4>
+                <p>连续的 SR 场景渲染专题，包含不同时间、天气、道路和交互状态下的可视化方案。</p>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media"><img src="./assets/portfolio/slide-37-sr-poc-01-1.webp" alt="SR POC 场景一" loading="lazy" decoding="async" /><figcaption>SR 场景渲染</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-38-sr-poc-02-1.webp" alt="SR POC 场景二" loading="lazy" decoding="async" /><figcaption>高速路口</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-40-sr-poc-04-1.webp" alt="SR POC 夜间场景" loading="lazy" decoding="async" /><figcaption>夜间场景</figcaption></figure>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media"><img src="./assets/portfolio/slide-41-sr-poc-05-1.webp" alt="SR POC 雨天场景" loading="lazy" decoding="async" /><figcaption>雨天场景</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-43-sr-poc-07-1.webp" alt="SR POC 沙漠场景" loading="lazy" decoding="async" /><figcaption>沙漠场景</figcaption></figure>
+                <figure class="work-media"><img src="./assets/portfolio/slide-44-sr-poc-08-1.webp" alt="SR POC 泊车场景" loading="lazy" decoding="async" /><figcaption>泊车场景</figcaption></figure>
+              </div>
+            </div>
+
+            <div class="subcase" id="great-wall-driver-motion">
+              <div class="subcase-heading">
+                <span>01-F / Driver Mode Motion / Slides 46-47</span>
+                <h4>Driver Mode 动画</h4>
+                <p>驾驶模式动画扩展，包含公路模式、涉水模式和石地模式三段视频。</p>
+              </div>
+              <div class="work-grid three">
+                <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-07.mp4" type="video/mp4" /></video><figcaption>公路模式动画</figcaption></figure>
+                <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-08.mp4" type="video/mp4" /></video><figcaption>涉水模式动画</figcaption></figure>
+                <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-09.mp4" type="video/mp4" /></video><figcaption>石地模式动画</figcaption></figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-case client-case" id="denza">
+            <div class="work-copy">
+              <span>02 / 腾势 Z9 / Slides 30-31</span>
+              <h3>Racing Assistant</h3>
+              <p>竞速助手是独立项目，围绕动态驾驶中的趣味感与性能反馈展开。内容包含竞速模式概念说明、界面视觉和一段动效。</p>
+            </div>
+            <div class="work-grid two">
+              <figure class="work-media"><img src="./assets/portfolio/slide-30-racing-assistant-1.webp" alt="腾势 Z9 竞速助手界面" loading="lazy" decoding="async" /><figcaption>腾势 Z9 竞速助手</figcaption></figure>
+              <figure class="work-media video"><video controls preload="metadata" poster="./assets/portfolio/slide-31-racing-motion-1.webp"><source src="./assets/portfolio/video-02.mp4" type="video/mp4" /></video><figcaption>竞速助手动效</figcaption></figure>
+            </div>
+          </article>
+
+          <article class="work-case client-case" id="jmc">
+            <div class="work-copy">
+              <span>03 / 江铃 POC / Slides 32-35</span>
+              <h3>JMC 3D POC Design</h3>
+              <p>江铃 POC 是一组动效设计集合，重点展示仪表入场、转场、空调吹风，以及泥地和沙地模式动画。</p>
+            </div>
+            <div class="work-grid three">
+              <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-03.mp4" type="video/mp4" /></video><figcaption>仪表入场 / 转场动画</figcaption></figure>
+              <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-04.mp4" type="video/mp4" /></video><figcaption>空调吹风动画</figcaption></figure>
+              <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-05.mp4" type="video/mp4" /></video><figcaption>泥地动画</figcaption></figure>
+            </div>
+            <div class="work-grid one">
+              <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-06.mp4" type="video/mp4" /></video><figcaption>沙地动画</figcaption></figure>
+            </div>
+          </article>
+
+          <article class="work-case client-case" id="zhixing">
+            <div class="work-copy">
+              <span>04 / 知行科技 SR / Slides 48-50</span>
+              <h3>Zhixing SR</h3>
+              <p>知行科技 SR 项目以驾驶辅助状态为核心，展示 Night mode、ALC 自动变道、NOA 开启、正在泊车和泊车完成。</p>
+            </div>
+            <div class="work-grid three">
+              <figure class="work-media"><img src="./assets/portfolio/slide-49-zhixing-night-2.webp" alt="知行科技 Night mode" loading="lazy" decoding="async" /><figcaption>Night mode</figcaption></figure>
+              <figure class="work-media"><img src="./assets/portfolio/slide-50-zhixing-states-1.webp" alt="ALC 自动变道" loading="lazy" decoding="async" /><figcaption>ALC 自动变道</figcaption></figure>
+              <figure class="work-media"><img src="./assets/portfolio/slide-50-zhixing-states-2.webp" alt="NOA 开启" loading="lazy" decoding="async" /><figcaption>NOA 开启</figcaption></figure>
+            </div>
+            <div class="work-grid two">
+              <figure class="work-media"><img src="./assets/portfolio/slide-50-zhixing-states-3.webp" alt="正在泊车" loading="lazy" decoding="async" /><figcaption>正在泊车</figcaption></figure>
+              <figure class="work-media"><img src="./assets/portfolio/slide-50-zhixing-states-4.webp" alt="泊车完成" loading="lazy" decoding="async" /><figcaption>泊车完成</figcaption></figure>
+            </div>
+          </article>
+
+          <article class="work-case client-case" id="dishui">
+            <div class="work-copy">
+              <span>05 / 滴水 OS SR / Slides 51-52</span>
+              <h3>Dishui OS SR</h3>
+              <p>滴水 OS SR 是独立动效展示项目，在 PPT 中以项目标题页和一段视频收尾，适合作为网站最后一个 Motion Case。</p>
+            </div>
+            <div class="work-grid one">
+              <figure class="work-media video"><video controls preload="metadata"><source src="./assets/portfolio/video-10.mp4" type="video/mp4" /></video><figcaption>滴水 OS SR 动效</figcaption></figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen about-screen" id="about" data-screen="about">
+        <p class="page-number">p.005</p>
+        <div class="vertical-rule" aria-hidden="true"></div>
+        <article class="about-column about-main">
+          <h2>Education</h2>
+          <p class="about-meta">燕京理工学院 <span>2018.09-2022.06</span></p>
+          <p>统招 - 环境设计「艺术学学士」</p>
+
+          <h2>About me</h2>
+          <p>
+            HMI 设计领域与创新设计经验。理解交互、3D 渲染、设计与引擎开发之间的流程。
+            熟练使用多种设计软件、3D 建模渲染工具，并在多个项目中完成设计、引擎效果与交付任务。
+          </p>
+        </article>
+        <article class="about-column about-skills">
+          <h2>Software skills</h2>
+          <p>
+            + Blender<br />
+            + C4D<br />
+            + Kanzi<br />
+            + Figma<br />
+            + Adobe Photoshop<br />
+            + Adobe After Effects<br />
+            + Unreal / Unity basics
+          </p>
+          <strong>HMI<br />VISUAL<br />SYSTEM</strong>
+        </article>
+      </section>
+
+      <section class="screen case-screen" id="case" data-screen="case">
+        <nav class="mini-nav" aria-label="案例页导航">
+          <a href="#home">HOME</a>
+          <a href="#work">WORK</a>
+          <a href="#case" aria-current="page">CASE</a>
+          <a href="#archive">ARCHIVE</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <p class="page-number">p.006</p>
+        <h2 class="case-title">Drive<br />Mode</h2>
+        <p class="case-subtitle">长城汽车驾驶模式视觉设计 / Kanzi / 3D Scene</p>
+        <div class="case-visual" aria-label="驾驶模式项目视觉预览">
+          <img src="./assets/portfolio/slide-06-sand-contrast-1.webp" alt="驾驶模式渲染图与 Kanzi 开发效果预览" loading="lazy" decoding="async" />
+        </div>
+        <div class="case-copy challenge">
+          <h3>Challenge</h3>
+          <p>把不同路况下的环境、车辆姿态和模式反馈统一到车载界面语言中，同时保持场景辨识度和引擎落地稳定性。</p>
+        </div>
+        <div class="case-copy role">
+          <h3>Role</h3>
+          <p>场景视觉 / HMI 状态 / Kanzi 效果跟进 / 渲染图与开发效果对比</p>
+        </div>
+        <div class="red-rule case-rule"></div>
+      </section>
+
+      <section class="screen contact-screen" id="contact" data-screen="contact">
+        <nav class="mini-nav" aria-label="联系页导航">
+          <a href="#home">HOME</a>
+          <a href="#work">WORK</a>
+          <a href="#about">ABOUT</a>
+          <a href="#contact" aria-current="page">CONTACT</a>
+        </nav>
+        <p class="page-number">p.007</p>
+        <h2>Let's build<br />something<br />with signal.</h2>
+        <p>如果你需要 HMI、3D 视觉、交互原型或作品合作，可以从这里联系我。</p>
+        <div class="red-rule contact-rule"></div>
+        <a class="email" href="tel:15613250086">15613250086</a>
+        <div class="socials">
+          <a href="#archive">PROJECT ARCHIVE</a>
+          <a href="#work">SELECTED WORKS</a>
+          <a href="#case">CASE VIEW</a>
+          <a href="#about">ABOUT</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
