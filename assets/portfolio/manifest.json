@@ -1,0 +1,729 @@
+{
+  "source": "/Users/kaivis/Desktop/郑开源作品集ppt.pptx",
+  "slideCount": 52,
+  "slides": [
+    {
+      "slide": 1,
+      "slug": "cover",
+      "texts": [
+        "Design/kanzi",
+        "郑开源 Phone ：15613250086"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-01-cover-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 2,
+          "area": 83612736000000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 2,
+      "slug": "haval-cover",
+      "texts": [
+        "长城汽车",
+        "HAVAL"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-02-haval-cover-1.webp",
+          "width": 1800,
+          "height": 913,
+          "shape": 1,
+          "area": 88713702460516
+        },
+        {
+          "file": "assets/portfolio/slide-02-haval-cover-2.webp",
+          "width": 580,
+          "height": 377,
+          "shape": 6,
+          "area": 2666925821840
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 4,
+      "slug": "sand-mode",
+      "texts": [
+        "Sand mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-04-sand-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-04-sand-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 6,
+      "slug": "sand-contrast",
+      "texts": [
+        "effect contrast",
+        "渲染图",
+        "Kanzi开发"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-06-sand-contrast-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 22148946108048
+        },
+        {
+          "file": "assets/portfolio/slide-06-sand-contrast-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 4,
+          "area": 22096036148496
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 7,
+      "slug": "offroad-mode",
+      "texts": [
+        "Offroad mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-07-offroad-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-07-offroad-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 10,
+      "slug": "grassland-mode",
+      "texts": [
+        "Grassland mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-10-grassland-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-10-grassland-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 13,
+      "slug": "snow-mode",
+      "texts": [
+        "Snow mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-13-snow-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-13-snow-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 16,
+      "slug": "concave-mode",
+      "texts": [
+        "Concave convex mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-16-concave-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-16-concave-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 19,
+      "slug": "highway-mode",
+      "texts": [
+        "Highway mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-19-highway-mode-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-19-highway-mode-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 23,
+      "slug": "mod-factory-scenes",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-23-mod-factory-scenes-1.webp",
+          "width": 1280,
+          "height": 720,
+          "shape": 2,
+          "area": 15686358949800
+        },
+        {
+          "file": "assets/portfolio/slide-23-mod-factory-scenes-2.webp",
+          "width": 1280,
+          "height": 720,
+          "shape": 3,
+          "area": 15686358949800
+        },
+        {
+          "file": "assets/portfolio/slide-23-mod-factory-scenes-3.webp",
+          "width": 1280,
+          "height": 720,
+          "shape": 4,
+          "area": 15686361920330
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 24,
+      "slug": "mod-factory-motion",
+      "texts": [
+        "改装厂动画展示—2560*720"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-24-mod-factory-motion-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        }
+      ],
+      "mediaShapes": [
+        {
+          "shape": 3
+        }
+      ]
+    },
+    {
+      "slide": 26,
+      "slug": "launcher-car-model",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-26-launcher-car-model-1.webp",
+          "width": 1800,
+          "height": 1014,
+          "shape": 1,
+          "area": 17781599026521
+        },
+        {
+          "file": "assets/portfolio/slide-26-launcher-car-model-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 2,
+          "area": 17708486325400
+        },
+        {
+          "file": "assets/portfolio/slide-26-launcher-car-model-3.webp",
+          "width": 1800,
+          "height": 1017,
+          "shape": 3,
+          "area": 17878724208192
+        },
+        {
+          "file": "assets/portfolio/slide-26-launcher-car-model-4.webp",
+          "width": 1800,
+          "height": 1016,
+          "shape": 4,
+          "area": 17792488143045
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 28,
+      "slug": "sr-highway",
+      "texts": [
+        "Highway mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-28-sr-highway-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-28-sr-highway-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 29,
+      "slug": "sr-time-system",
+      "texts": [
+        "Noon",
+        "Morning",
+        "Night",
+        "Dusk"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-29-sr-time-system-1.webp",
+          "width": 1800,
+          "height": 1011,
+          "shape": 1,
+          "area": 15008879029680
+        },
+        {
+          "file": "assets/portfolio/slide-29-sr-time-system-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 2,
+          "area": 15087091455170
+        },
+        {
+          "file": "assets/portfolio/slide-29-sr-time-system-3.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 15010726748235
+        },
+        {
+          "file": "assets/portfolio/slide-29-sr-time-system-4.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 4,
+          "area": 15010726748235
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 30,
+      "slug": "racing-assistant",
+      "texts": [
+        "竞速模式是车辆驾驶模式选项中的一种，旨在提升车辆在动态驾驶中的趣味感和性能表现。 它与经济、舒适、运动等模式并列，供驾驶者根据路况和心情随心切换",
+        "腾势Z9 竞速助手",
+        "Racing Assistant"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-30-racing-assistant-1.webp",
+          "width": 1299,
+          "height": 595,
+          "shape": 1,
+          "area": 39956787682151
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 31,
+      "slug": "racing-motion",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-31-racing-motion-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83612755050001
+        }
+      ],
+      "mediaShapes": [
+        {
+          "shape": 2
+        }
+      ]
+    },
+    {
+      "slide": 33,
+      "slug": "jmc-entry-transition",
+      "texts": [
+        "仪表入场动画",
+        "仪表转场动画"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-33-jmc-entry-transition-1.webp",
+          "width": 98,
+          "height": 133,
+          "shape": 5,
+          "area": 468468189936
+        }
+      ],
+      "mediaShapes": [
+        {
+          "shape": 1
+        },
+        {
+          "shape": 4
+        }
+      ]
+    },
+    {
+      "slide": 34,
+      "slug": "jmc-airflow",
+      "texts": [
+        "3D POC Design",
+        "空调吹风动画"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-34-jmc-airflow-1.webp",
+          "width": 98,
+          "height": 133,
+          "shape": 4,
+          "area": 468468189936
+        }
+      ],
+      "mediaShapes": [
+        {
+          "shape": 5
+        }
+      ]
+    },
+    {
+      "slide": 35,
+      "slug": "jmc-terrain",
+      "texts": [
+        "泥地动画",
+        "沙地动画"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-35-jmc-terrain-1.webp",
+          "width": 98,
+          "height": 133,
+          "shape": 3,
+          "area": 468468189936
+        }
+      ],
+      "mediaShapes": [
+        {
+          "shape": 4
+        },
+        {
+          "shape": 5
+        }
+      ]
+    },
+    {
+      "slide": 37,
+      "slug": "sr-poc-01",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-37-sr-poc-01-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 38,
+      "slug": "sr-poc-02",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-38-sr-poc-02-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 39,
+      "slug": "sr-poc-03",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-39-sr-poc-03-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 40,
+      "slug": "sr-poc-04",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-40-sr-poc-04-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 41,
+      "slug": "sr-poc-05",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-41-sr-poc-05-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 42,
+      "slug": "sr-poc-06",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-42-sr-poc-06-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 43,
+      "slug": "sr-poc-07",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-43-sr-poc-07-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 44,
+      "slug": "sr-poc-08",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-44-sr-poc-08-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 45,
+      "slug": "sr-poc-09",
+      "texts": [],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-45-sr-poc-09-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 83773864710000
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 49,
+      "slug": "zhixing-night",
+      "texts": [
+        "Night mode—1920*1080"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-49-zhixing-night-1.webp",
+          "width": 1800,
+          "height": 1015,
+          "shape": 1,
+          "area": 83569424678447
+        },
+        {
+          "file": "assets/portfolio/slide-49-zhixing-night-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 5713155503807
+        },
+        {
+          "file": "assets/portfolio/slide-49-zhixing-night-3.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 4,
+          "area": 6335596071480
+        }
+      ],
+      "mediaShapes": []
+    },
+    {
+      "slide": 50,
+      "slug": "zhixing-states",
+      "texts": [
+        "ALC自动变道",
+        "NOA开启",
+        "正在泊车",
+        "泊车完成"
+      ],
+      "images": [
+        {
+          "file": "assets/portfolio/slide-50-zhixing-states-1.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 1,
+          "area": 15008876118840
+        },
+        {
+          "file": "assets/portfolio/slide-50-zhixing-states-2.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 2,
+          "area": 15087091455170
+        },
+        {
+          "file": "assets/portfolio/slide-50-zhixing-states-3.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 3,
+          "area": 15010726748235
+        },
+        {
+          "file": "assets/portfolio/slide-50-zhixing-states-4.webp",
+          "width": 1800,
+          "height": 1012,
+          "shape": 4,
+          "area": 15010726748235
+        }
+      ],
+      "mediaShapes": []
+    }
+  ],
+  "videos": [
+    {
+      "file": "assets/portfolio/video-01.mp4",
+      "bytes": 20146396
+    },
+    {
+      "file": "assets/portfolio/video-02.mp4",
+      "bytes": 10945974
+    },
+    {
+      "file": "assets/portfolio/video-03.mp4",
+      "bytes": 6253842
+    },
+    {
+      "file": "assets/portfolio/video-04.mp4",
+      "bytes": 6974845
+    },
+    {
+      "file": "assets/portfolio/video-05.mp4",
+      "bytes": 12196061
+    },
+    {
+      "file": "assets/portfolio/video-06.mp4",
+      "bytes": 11728966
+    },
+    {
+      "file": "assets/portfolio/video-07.mp4",
+      "bytes": 11893476
+    },
+    {
+      "file": "assets/portfolio/video-08.mp4",
+      "bytes": 12120800
+    },
+    {
+      "file": "assets/portfolio/video-09.mp4",
+      "bytes": 9384933
+    },
+    {
+      "file": "assets/portfolio/video-10.mp4",
+      "bytes": 35452531
+    }
+  ]
+}
